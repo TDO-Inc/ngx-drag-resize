@@ -1,0 +1,12 @@
+https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry
+
+1. Login via npm
+	a) npm login --scope=@OWNER --registry=https://npm.pkg.github.com
+		1) It will ask for your github username.
+		2) It will ask for password which is your personal access token from github with write permissions.
+		3) Email address
+		
+	b) npm build, then copy the assets folder over to the dist/project-name/library folder, since it doesn't make it on build.
+		
+	c) 	To publish an ivy compiled library without an error (example)
+		[C:\SourceCode]\ngx-drag-resize\projects\ngx-drag-resize>npm publish --ignore-scripts
