@@ -11,8 +11,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  
-  "repository": "git@github.com:TDO-Inc/ngx-drag-resize",
+  "repository": "git@github.com:TDO-Inc/ngx-drag-resize.git",
   "homepage": "https://github.com/tdo-inc/ngx-drag-resize",
   "bugs": {
     "email": "avargas@tdo4endo.com",
