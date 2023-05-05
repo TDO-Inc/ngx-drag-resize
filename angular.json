@@ -214,6 +214,5 @@
         }
       }
     }
-  },
-  "defaultProject": "ngx-drag-resize"
+  }
 }
