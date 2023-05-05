@@ -8,10 +8,15 @@
     "drag",
     "resize"
   ],
-  "homepage": "https://github.com/dmytro-parfenov/ngx-drag-resize",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  
+  "repository": "git@github.com:TDO-Inc/ngx-drag-resize",
+  "homepage": "https://github.com/tdo-inc/ngx-drag-resize",
   "bugs": {
-    "email": "dmitryparfenov937@gmail.com",
-    "url": "https://github.com/dmytro-parfenov/ngx-drag-resize/issues"
+    "email": "avargas@tdo4endo.com",
+    "url": "https://github.com/tdo-inc/ngx-drag-resize/issues"
   },
   "license": "MIT",
   "author": {
@@ -39,7 +44,6 @@
     "publish:lib": "npm run prepublish:lib && npm run publish --prefix dist/ngx-drag-resize",
     "deploy:demo": "npm run predeploy:demo && firebase deploy"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^15.2.9",
     "@angular/cdk": "^15.2.9",
