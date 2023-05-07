@@ -1,17 +1,17 @@
 {
   "name": "@tdo-inc/ngx-drag-resize",
   "description": "The Angular library provides opportunity to use drag and resize functionality on HTML element",
-  "version": "0.2.0",
+  "version": "0.2.3",
   "keywords": [
     "angular",
     "ngx",
     "drag",
     "resize"
   ],
-  "repository": "git@github.com:TDO-Inc/ngx-drag-resize.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
+  "repository": "git@github.com:TDO-Inc/ngx-drag-resize.git",
   "bugs": {
     "email": "avargas@tdo4endo.com",
     "url": "https://github.com/tdo-inc/ngx-drag-resize/issues"

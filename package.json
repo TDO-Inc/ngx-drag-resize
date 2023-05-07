@@ -1,7 +1,7 @@
 {
-  "name": "ngx-drag-resize",
-  "version": "0.1.0",
-  "description": "The project contains Angular library that provides opportunity to use drag and resize functionality on HTML element",
+  "name": "@tdo-inc/ngx-drag-resize",
+  "description": "The Angular library provides opportunity to use drag and resize functionality on HTML element",
+  "version": "0.2.3",
   "keywords": [
     "angular",
     "ngx",
