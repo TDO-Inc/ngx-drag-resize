@@ -3,10 +3,6 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
@@ -21,15 +17,10 @@
     ],
     "paths": {
       "ngx-drag-resize": [
-        "dist/ngx-drag-resize/ngx-drag-resize",
-        "dist/ngx-drag-resize"
+        "dist/tdo-inc/ngx-drag-resize"
       ]
     },
     "useDefineForClassFields": false
   },
-  "angularCompilerOptions": {
-    "strictInjectionParameters": true,
-    "strictInputAccessModifiers": true,
-    "strictTemplates": true
-  }
+  "angularCompilerOptions": {}
 }
