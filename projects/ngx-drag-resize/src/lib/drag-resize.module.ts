@@ -4,6 +4,7 @@ import {NgxDragHandleDirective} from './drag/drag-handle.directive';
 import {NgxResizeDirective} from './resize/resize.directive';
 import {NgxResizeHandleDirective} from './resize/resize-handle.directive';
 import {SharedModule} from './shared/shared.module';
+import { CommonModule } from '@angular/common';
 
 /**
  * The module provides opportunity to use drag and resize functionality on HTML elements
@@ -12,7 +13,8 @@ import {SharedModule} from './shared/shared.module';
  */
 @NgModule({
   imports: [
-    SharedModule
+    SharedModule,
+    CommonModule
   ],
   declarations: [
     NgxDragDirective,
